@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Elec_Controller">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="Elec_Service-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Elec_Service/Elec_Service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Elec_Dao-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Elec_Dao/Elec_Dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="config-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/config/config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Elec_Controller"/>
+        <property name="java-output-path" value="/Elec_Controller/target/classes"/>
+    </wb-module>
+</project-modules>
